@@ -1,0 +1,21 @@
+# Dependencias: sao reconstruidas a partir do package-lock.json.
+#
+# Este arquivo nasceu tarde: as 5.155 arquivos do node_modules ja estavam
+# versionados, o que fazia o repositorio pesar 64 MB em vez de ~200 KB. Eles
+# sairam do rastreamento, mas continuam no historico dos dois commits
+# anteriores - por isso um clone ainda baixa o volume antigo.
+node_modules/
+
+# Variaveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
